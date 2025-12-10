@@ -1,0 +1,72 @@
+Source file: data/takeshi.txt
+Total word-level rows: 5471
+Total tokens processed: 5213
+Blank lines skipped: 0
+Untagged lines: 0
+Lines with removed leading 'H>': 0
+Words containing markup (e.g., '*'): 115
+Unique folios found: 257
+
+Top 20 unified tokens (by frequency):
+  o                              11
+  y                              10
+  s                              8
+  d                              7
+  okeody                         7
+  r                              6
+  otaly                          6
+  f                              5
+  l                              5
+  okal                           5
+  okaly                          5
+  oky                            5
+  otedy                          5
+  otoldy                         5
+  okeod                          4
+  otal                           4
+  otoly                          4
+  okary                          4
+  okeos                          4
+  okol                           4
+
+Examples of tokens flagged as ambiguous (original -> cleaned ; notes):
+  fachys.ykal.ar.ataiin.shol.shory.cthres.y.kor.sholdy -> fachys.ykal.ar.ataiin.shol.shory.cthres.y.kor.sholdy ; ['many_dots']
+  sory.ckhar.or.y.kair.chtaiin.shar.are.cthar.cthar.dan -> sory.ckhar.or.y.kair.chtaiin.shar.are.cthar.cthar.dan ; ['many_dots']
+  syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sa -> syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sa ; ['many_dots']
+  ooiin.oteey.oteos.roloty.cth*ar.daiin.otaiin.or.okan -> ooiin.oteey.oteos.roloty.cthar.daiin.otaiin.or.okan ; ['markup_removed', 'changed_by_cleaning', 'many_dots']
+  dair.y.chear.cthaiin.cphar.cfhaiin -> dair.y.chear.cthaiin.cphar.cfhaiin ; ['many_dots']
+  *.odar.o.y.shol.cphoy.oydar.sh.s.cfhoaiin.shodary -> .odar.o.y.shol.cphoy.oydar.sh.s.cfhoaiin.shodary ; ['markup_removed', 'changed_by_cleaning', 'many_dots']
+  yshey.shody.okchoy.otchol.chocthy.oschy.dain.chor.kos -> yshey.shody.okchoy.otchol.chocthy.oschy.dain.chor.kos ; ['many_dots']
+  *.ydain.cphesaiin.ol.s.cphey.ytain.shoshy.cphodales -> .ydain.cphesaiin.ol.s.cphey.ytain.shoshy.cphodales ; ['markup_removed', 'changed_by_cleaning', 'many_dots']
+  oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin -> oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin ; ['many_dots']
+  shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.she.oldain.d -> shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.she.oldain.d ; ['many_dots']
+  dain.oiin.chol.odaiin.chodain.chdy.okain.dan.cthy.kod -> dain.oiin.chol.odaiin.chodain.chdy.okain.dan.cthy.kod ; ['many_dots']
+  daiin.shckhey.ckeor.chor.shey.kol.chol.chol.kor.chal -> daiin.shckhey.ckeor.chor.shey.kol.chol.chol.kor.chal ; ['many_dots']
+  sho.chol.shodan.kshy.kchy.dor.chodaiin.sho.kchom -> sho.chol.shodan.kshy.kchy.dor.chodaiin.sho.kchom ; ['many_dots']
+  ycho.tchey.chokain.sheo.pshol.dydyd.cthy.daicthy -> ycho.tchey.chokain.sheo.pshol.dydyd.cthy.daicthy ; ['many_dots']
+  yto.shol.she.kodshey.cphealy.dasain.dain.ckhyds -> yto.shol.she.kodshey.cphealy.dasain.dain.ckhyds ; ['many_dots']
+  dchar.shcthaiin.okaiir.chey.rchy.potol.cthols.dlocta -> dchar.shcthaiin.okaiir.chey.rchy.potol.cthols.dlocta ; ['many_dots']
+  shok.chor.chey.dain.ckhey      -> shok.chor.chey.dain.ckhey      ; ['many_dots']
+  cpho.shaiin.shokcheey.chol.tshodeesy.shey.pydeey.chy.ro.d* -> cpho.shaiin.shokcheey.chol.tshodeesy.shey.pydeey.chy.ro.d ; ['markup_removed', 'changed_by_cleaning', 'many_dots']
+  *doin.chol.dain.cthal.dar.shear.kaiin.dar.shey.cthar -> doin.chol.dain.cthal.dar.shear.kaiin.dar.shey.cthar ; ['markup_removed', 'changed_by_cleaning', 'many_dots']
+  cho*o.kaiin.shoaiin.okol.daiin.far.cthol.daiin.ctholdar -> choo.kaiin.shoaiin.okol.daiin.far.cthol.daiin.ctholdar ; ['markup_removed', 'changed_by_cleaning', 'many_dots']
+  ycheey.okay.oky.daiin.okchey.kokaiin.**chol.k**chy.dal -> ycheey.okay.oky.daiin.okchey.kokaiin.chol.kchy.dal ; ['markup_removed', 'changed_by_cleaning', 'many_dots']
+  d*eeo.shody.koshey.cthy.okchey.keey.keey.dal.chtor -> deeo.shody.koshey.cthy.okchey.keey.keey.dal.chtor ; ['markup_removed', 'changed_by_cleaning', 'many_dots']
+  *eo.chol.chok.choty.chotey     -> eo.chol.chok.choty.chotey      ; ['markup_removed', 'changed_by_cleaning', 'many_dots']
+  kchsy.chadaiin.ololtchey.char.cfhar.am -> kchsy.chadaiin.ololtchey.char.cfhar.am ; ['many_dots']
+  yteeay.char.or.ochydcho.lkody.okodar.chody -> yteeay.char.or.ochydcho.lkody.okodar.chody ; ['many_dots']
+  do.ckhy.ckho.ckhy.shydksheey.cthy.kotchody.dal -> do.ckhy.ckho.ckhy.shydksheey.cthy.kotchody.dal ; ['many_dots']
+  dol.chokeo.dair.damsochey.chokody -> dol.chokeo.dair.damsochey.chokody ; ['many_dots']
+  potoy.shol.dair.cphoaldar.chey.tody.otoaiin.shoshy -> potoy.shol.dair.cphoaldar.chey.tody.otoaiin.shoshy ; ['many_dots']
+  choky.chol.cthol.shol.okaldolchey.chodo.lol.chy.cthy -> choky.chol.cthol.shol.okaldolchey.chodo.lol.chy.cthy ; ['many_dots']
+  qo.ol.choeee.cheol.dol.ctheyykol.dol.dolo.ykol.do.lchody -> qo.ol.choeee.cheol.dol.ctheyykol.dol.dolo.ykol.do.lchody ; ['many_dots']
+  okol.shol.kol.kechy.chol.kychol.cthol.chody.chol.daiin -> okol.shol.kol.kechy.chol.kychol.cthol.chody.chol.daiin ; ['many_dots']
+  shor.okol.chol.dol.ky.darshol.dchor.otcho.dar.shody -> shor.okol.chol.dol.ky.darshol.dchor.otcho.dar.shody ; ['many_dots']
+  taor.chotchey.dal.chodyschody.pol.chodar -> taor.chotchey.dal.chodyschody.pol.chodar ; ['many_dots']
+  kydainy.ypchol.daiin.otchalypchaiin.ckholsy -> kydainy.ypchol.daiin.otchalypchaiin.ckholsy ; ['many_dots']
+  saiin.dainddkol.sorytoldydchol.dchy.cthy -> saiin.dainddkol.sorytoldydchol.dchy.cthy ; ['many_dots']
+  kydain.shaiin.qoy.s.shol.fodanyksh.olsheey.daiildy -> kydain.shaiin.qoy.s.shol.fodanyksh.olsheey.daiildy ; ['many_dots']
+  dlssho.kol.sheey.qokey.ykody.sochol.yky.dain.daiirol -> dlssho.kol.sheey.qokey.ykody.sochol.yky.dain.daiirol ; ['many_dots']
+  qoky.cholaiin.shol.sheky.daiincthey.keol.saiin.saiin -> qoky.cholaiin.shol.sheky.daiincthey.keol.saiin.saiin ; ['many_dots']
+  ychain.dal.chy.dalor.shan.danolsaiin.sheey.ckhor -> ychain.dal.chy.dalor.shan.danolsaiin.sheey.ckhor ; ['many_dots']
+  okol.chy.chor.cthor.yor.an.chansaiin.chety.chyky.sal -> okol.chy.chor.cthor.yor.an.chansaiin.chety.chyky.sal ; ['many_dots']
